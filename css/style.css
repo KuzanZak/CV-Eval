@@ -5,10 +5,8 @@ body{
 }
 
 .header-ttl{
-    color: white;
     text-align: center;
-    /* background-color: rgb(10, 10, 116); */
-    /* border: 2px solid red; */
+    color: white;
     padding: 4rem 0;
 }
 
@@ -18,51 +16,44 @@ body{
 
 /* PRESENTATION */ 
 .presentation{
-    /* border: 2px solid red; */
-    /* background-color: #c1c0c0; */
-    padding-bottom: 1rem;
-}
-
-.presentation-content{
-
-}
-
-.presentation-ttl{
-    color: rgb(42, 42, 102);
     text-align: center;
+    padding: .7rem 0;
+}
+.presentation-ttl{
+    text-align: center;
+    color: rgb(42, 42, 102);
 }
 
-.presentation-paragraph{
-    /* color: black; */
+.presentation-p{
     line-height: 0.4;
 }
-
+.presentation-p span{
+    text-decoration: underline;
+    text-decoration-color: rgb(42, 42, 102);
+}
 /* SKILLS */ 
 .skills{
-    /* background-color: #c1c0c0; */
-    padding-bottom: 1rem;
-}
-.skills-content{
-
+    padding: .7rem 0;
 }
 
 .skills-ttl{
-    color: rgb(42, 42, 102);
     text-align: center;
+    color: rgb(42, 42, 102);
 }
 
-.skills-biosciences-list p{
+.skills-biosciences-list, .skills-informatic-list{
+    padding-bottom: .1rem;
+}
+.skills-ul {
+    line-height: 1.3;
+}
+
+.skills-biosciences-list .skills-p{
     line-height: 0;
 }
 
-.skills-biosciences-list li {
-    line-height: 1.3;
-}
-.skills-paragraph{
-    
-}
-.skills-informatic-list{
-
+.skills-informatic-list .skills-p{
+    line-height: 1;
 }
 
 .skills-informatic-list{
@@ -71,14 +62,16 @@ body{
 
 /* Langues */
 .languages{
+    text-align: center;
     padding-bottom: 1rem;
 }
-.languages-content{
-
+.languages-content p span{
+    text-decoration: underline;
+    text-decoration-color: rgb(42, 42, 102);
 }
 .languages-ttl{
-    color: rgb(42, 42, 102);
     text-align: center;
+    color: rgb(42, 42, 102);
 }
 .languages p{
     line-height: 0.3;
@@ -90,67 +83,40 @@ body{
 }
 
 .formations{
-    padding-bottom: 1rem;
+    padding-bottom: .5rem;
 }
 .formations-ttl{
-    color: rgb(42, 42, 102);
     text-align: center;
+    color: rgb(42, 42, 102);
 }
 
 .formations-afpa{
-    line-height: 0;
-    /* border: 2px solid green; */
-    padding-bottom: 0.1rem;
-}
-
-.formations-sttl{
-    /* line-height: 0.6; */
-}
-
-.formations-fac-sttl, .formations-lycee-sttl{
+    text-align: center;
     line-height: 0;
 }
 
-.formations-fac{
+.formations-fac, .formations-afpa{
     padding-bottom: 0.1rem;
 }
 
 .formations-fac-sttl, .formations-lycee-sttl{
-    /* line-height: 0; */
-    /* padding: .5rem 0; */
-}
-.formations-paragraph{
-
-}
-.formations-lycee{
-   
-    
+    line-height: 0;
+    text-align: center;
 }
 
 /* Experience */ 
 .experience{
-
-}
-
-.experience-content{
+    padding-bottom: .5rem;
 }
 
 .experience-ttl{
-    color: rgb(42, 42, 102);
     text-align: center;
+    color: rgb(42, 42, 102);
     padding-bottom: 1rem;
-}
-
-.experience-list{
-    
 }
 
 .experience-sttl{
     line-height: 0.1;
-}
-
-.experience-paragraph{
-
 }
 
 /* LOISIRS */
@@ -158,19 +124,14 @@ body{
 .loisirs{
     padding: .5rem 0;
 }
-.loisirs-content{
 
-}
 .loisirs-ttl{
-    color: rgb(42, 42, 102);
     text-align: center;
+    color: rgb(42, 42, 102);
     padding-bottom: 1rem;
 }
-.loisirs-paragraph{
+.loisirs-p{
     line-height: 0;
-}
-.loisirs-list{
-
 }
 
 /* FOOTER */ 
