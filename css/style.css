@@ -47,6 +47,7 @@ body{
     .presentation{
         text-align: left;
         padding-left: 1rem;
+        padding-right: 1rem;
         padding-bottom: 0.1rem;
     }
     .presentation-ttl{
@@ -54,6 +55,9 @@ body{
     }
     .presentation-p{
         line-height: 1;
+    }
+    .presentation p{
+        font-size: 1.2rem;
     }
 }
 /* SKILLS */ 
@@ -86,6 +90,31 @@ body{
     line-height: 0.4;
 }
 
+@media screen and (min-width: 768px) {
+    .skills{
+        text-align: left;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 0.1rem;
+    }
+    .skills-ttl{
+        text-align: left;
+        padding-bottom: .6rem;
+    }
+    .skills-biosciences-list, .skills-informatic-list, .skills-p{
+        font-size: 1.2rem;
+    }
+    .skills-ul {
+        line-height: 2;
+    }
+    .skills-informatic-list .skills-p{
+        line-height: 1.5;
+    }
+    .skills-informatic-list{
+        line-height: 1.2;
+    }
+}
+
 /* Langues */
 .languages{
     text-align: center;
@@ -102,6 +131,8 @@ body{
 .languages p{
     line-height: 0.3;
 }
+
+
 
 /* FORMATIONS */ 
 .right-cv{
