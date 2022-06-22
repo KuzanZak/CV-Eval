@@ -34,7 +34,7 @@ body{
 
 .presentation-paragraph{
     /* color: black; */
-    line-height: 0.6;
+    line-height: 0.4;
 }
 
 /* SKILLS */ 
@@ -56,7 +56,7 @@ body{
 }
 
 .skills-biosciences-list li {
-    line-height: 1;
+    line-height: 1.3;
 }
 .skills-paragraph{
     
@@ -96,21 +96,27 @@ body{
     color: rgb(42, 42, 102);
     text-align: center;
 }
+
 .formations-afpa{
-    line-height: 0.1;
-    padding: .5rem 0;
+    line-height: 0;
+    /* border: 2px solid green; */
+    padding-bottom: 0.1rem;
 }
 
-.formations-fac{
-    padding-bottom: 0.2rem
-}
-
-.formations-fac span{
-    font-size: 0.8rem;
+.formations-sttl{
+    /* line-height: 0.6; */
 }
 
 .formations-fac-sttl, .formations-lycee-sttl{
-    line-height: 0.1;
+    line-height: 0;
+}
+
+.formations-fac{
+    padding-bottom: 0.1rem;
+}
+
+.formations-fac-sttl, .formations-lycee-sttl{
+    /* line-height: 0; */
     /* padding: .5rem 0; */
 }
 .formations-paragraph{
