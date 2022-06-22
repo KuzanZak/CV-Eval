@@ -4,7 +4,7 @@ const link = document.getElementById("loisirs-link");
 link.addEventListener("click", function(event){
     event.preventDefault()
     const modalLink = modal()
-    console.log(modalLink)
+    modalLink.firstElementChild.innerHTML = '<i class="fa fa-times-circle modal-link-close" aria-hidden="true"></i>';
 })
 
 function modal(){
@@ -16,5 +16,10 @@ function modal(){
     modalLinkContent.classList.add("modal-link-content")
     modalLink.appendChild(modalLinkContent);
     document.getElementById("loisirs").insertBefore(modalLink, document.getElementById("loisirs-content"));
+    
+    modalLink.addEventListener("click", function(event) {
+        if (event.target.classList.contains("modal-link-close")) this.remove();
+        console.log("click")
+    })
     return modalLink
 };
