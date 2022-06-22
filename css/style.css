@@ -79,24 +79,33 @@ body{
 }
 
 .formations{
-
+    
 }
 .formations-ttl{
     color: rgb(42, 42, 102);
     text-align: center;
 }
 .formations-afpa{
-
+    line-height: 0.1;
+    padding: .5rem 0;
 }
-.formations-sttl{
 
-}
 .formations-fac{
+    line-height: 0.1;
+    padding: .5rem 0;
+}
+
+.formations-fac span{
+    font-size: 0.8rem;
+}
+
+.formations-fac-sttl{
 
 }
 .formations-paragraph{
 
 }
 .formations-lycee{
-
+    line-height: 0.1;
+    padding: .5rem 0;
 }
