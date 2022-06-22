@@ -1,6 +1,5 @@
 body{
     background-color:rgb(42, 42, 102);
-    color: white;
 }
 
 .header-ttl{
@@ -8,12 +7,18 @@ body{
     text-align: center;
     /* background-color: rgb(10, 10, 116); */
     /* border: 2px solid red; */
+    padding: 4rem 0;
+}
+
+.left-cv{
+    background-color: #c1c0c0;
 }
 
 /* PRESENTATION */ 
 .presentation{
     /* border: 2px solid red; */
-    background-color: #c1c0c0;
+    /* background-color: #c1c0c0; */
+    padding-bottom: 1rem;
 }
 
 .presentation-content{
@@ -26,7 +31,44 @@ body{
 }
 
 .presentation-paragraph{
-    color: black;
+    /* color: black; */
 }
 
 /* SKILLS */ 
+.skills{
+    /* background-color: #c1c0c0; */
+    padding-bottom: 1rem;
+}
+.skills-content{
+
+}
+
+.skills-ttl{
+    color: rgb(42, 42, 102);
+    text-align: center;
+}
+
+.skills-biosciences-list{
+
+}
+.skills-paragraph{
+    /* color: black; */
+}
+.skills-informatic-list{
+
+}
+
+/* Langues */
+.languages{
+    padding-bottom: 1rem;
+}
+.languages-content{
+
+}
+.languages-ttl{
+    color: rgb(42, 42, 102);
+    text-align: center;
+}
+.languages-list{
+
+}
