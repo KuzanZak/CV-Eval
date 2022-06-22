@@ -36,22 +36,24 @@ function remove(){
 
 
 function icon(){
-    const iconClose = document.createElement("i");
-    iconClose.classList.add("fa")
-    iconClose.classList.add("fa-times-circle")
-    iconClose.classList.add("modal-link-close")
-    iconClose.setAttribute("aria-hidden", "true")
-    return iconClose
+        const iconClose = document.createElement("i");
+        iconClose.classList.add("fa")
+        iconClose.classList.add("fa-times-circle")
+        iconClose.classList.add("modal-link-close")
+        iconClose.setAttribute("aria-hidden", "true")
+        return iconClose
 }
 
 link.addEventListener("click", function(event){
     event.preventDefault();
-    add();
-    const modalLinkContent = modal();
-    const iconClose = icon();
-    modalLinkContent.appendChild(linkLogoLakers)
-    modalLinkContent.appendChild(linkPLakers)
-    modalLinkContent.appendChild(linkDuoLakers)
-    icon()
-    modalLinkContent.insertBefore(iconClose, linkLogoLakers)
-})
+    if(window.innerWidth >= 768){
+        add();
+        const modalLinkContent = modal();
+        const iconClose = icon();
+        modalLinkContent.appendChild(linkLogoLakers)
+        modalLinkContent.appendChild(linkPLakers)
+        modalLinkContent.appendChild(linkDuoLakers)
+        icon()
+        modalLinkContent.insertBefore(iconClose, linkLogoLakers);
+    }
+});
