@@ -57,3 +57,8 @@ link.addEventListener("click", function(event){
         modalLinkContent.insertBefore(iconClose, linkLogoLakers);
     }
 });
+
+
+// JS MOBILE
+
+
