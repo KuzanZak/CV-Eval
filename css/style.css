@@ -1,0 +1,32 @@
+body{
+    background-color:rgb(42, 42, 102);
+    color: white;
+}
+
+.header-ttl{
+    color: white;
+    text-align: center;
+    /* background-color: rgb(10, 10, 116); */
+    /* border: 2px solid red; */
+}
+
+/* PRESENTATION */ 
+.presentation{
+    /* border: 2px solid red; */
+    background-color: #c1c0c0;
+}
+
+.presentation-content{
+
+}
+
+.presentation-ttl{
+    color: rgb(42, 42, 102);
+    text-align: center;
+}
+
+.presentation-paragraph{
+    color: black;
+}
+
+/* SKILLS */ 
