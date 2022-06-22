@@ -4,6 +4,17 @@ body{
     background-color:rgb(42, 42, 102);
 }
 
+@media screen and (min-width: 768px) {
+    .main{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .header-ttl{
+        font-size: 3.5rem;
+    }
+}
+
 .header-ttl{
     text-align: center;
     color: white;
@@ -20,7 +31,6 @@ body{
     padding-bottom: .5rem;
 }
 .presentation-ttl{
-    text-align: center;
     color: rgb(42, 42, 102);
     padding-top: 2rem;
 }
@@ -31,6 +41,20 @@ body{
 .presentation-p span{
     text-decoration: underline;
     text-decoration-color: rgb(42, 42, 102);
+}
+
+@media screen and (min-width: 768px) {
+    .presentation{
+        text-align: left;
+        padding-left: 1rem;
+        padding-bottom: 0.1rem;
+    }
+    .presentation-ttl{
+        padding-top: .5rem;
+    }
+    .presentation-p{
+        line-height: 1;
+    }
 }
 /* SKILLS */ 
 .skills{
@@ -138,3 +162,5 @@ body{
 }
 
 /* FOOTER */ 
+
+/* MEDIA */ 
