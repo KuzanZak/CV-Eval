@@ -17,11 +17,12 @@ body{
 /* PRESENTATION */ 
 .presentation{
     text-align: center;
-    padding: .7rem 0;
+    padding-bottom: .5rem;
 }
 .presentation-ttl{
     text-align: center;
     color: rgb(42, 42, 102);
+    padding-top: 2rem;
 }
 
 .presentation-p{
@@ -33,12 +34,13 @@ body{
 }
 /* SKILLS */ 
 .skills{
-    padding: .7rem 0;
+    padding-bottom: .5rem;
 }
 
 .skills-ttl{
     text-align: center;
     color: rgb(42, 42, 102);
+    padding-top: .5rem;
 }
 
 .skills-biosciences-list, .skills-informatic-list{
@@ -63,7 +65,7 @@ body{
 /* Langues */
 .languages{
     text-align: center;
-    padding-bottom: 1rem;
+    padding-bottom: .5rem;
 }
 .languages-content p span{
     text-decoration: underline;
@@ -88,6 +90,7 @@ body{
 .formations-ttl{
     text-align: center;
     color: rgb(42, 42, 102);
+    padding-top: 2rem;
 }
 
 .formations-afpa{
@@ -112,7 +115,7 @@ body{
 .experience-ttl{
     text-align: center;
     color: rgb(42, 42, 102);
-    padding-bottom: 1rem;
+    padding: .5rem;
 }
 
 .experience-sttl{
@@ -122,13 +125,13 @@ body{
 /* LOISIRS */
 
 .loisirs{
-    padding: .5rem 0;
+    padding-bottom: .5rem;
 }
 
 .loisirs-ttl{
     text-align: center;
     color: rgb(42, 42, 102);
-    padding-bottom: 1rem;
+    padding-top: .5rem;
 }
 .loisirs-p{
     line-height: 0;
