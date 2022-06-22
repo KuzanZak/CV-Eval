@@ -235,10 +235,21 @@ body{
     color: rgb(42, 42, 102);
     padding-top: .5rem;
 }
+
 .loisirs-p{
     line-height: 0;
+    text-decoration: none;
+    color: black;
 }
 
+.loisirs a:visited{
+    color: #552084;
+}
+
+.loisirs a:hover{
+    border-bottom: 2px solid;
+    background-color: #fdba21;
+}
 
 @media screen and (min-width: 768px){
     .loisirs-ttl{
