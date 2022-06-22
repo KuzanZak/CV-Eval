@@ -242,15 +242,6 @@ body{
     color: black;
 }
 
-.loisirs a:visited{
-    color: #552084;
-}
-
-.loisirs a:hover{
-    border-bottom: 2px solid;
-    background-color: #fdba21;
-}
-
 @media screen and (min-width: 768px){
     .loisirs-ttl{
         text-align: left;
@@ -260,6 +251,13 @@ body{
     }
     .loisirs-p, .loisirs li {
         font-size: 1.1rem;
+    }
+    .loisirs a:visited{
+        color: #552084;
+    }
+    .loisirs a:hover{
+        border-bottom: 2px solid;
+        background-color: #fdba21;
     }
 }
 
