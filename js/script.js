@@ -60,5 +60,11 @@ link.addEventListener("click", function(event){
 
 
 // JS MOBILE
-
-
+const buttonNav = document.getElementById("button-nav");
+// console.log(buttonNav)
+const navHeader = document.getElementById("nav-header")
+// console.log(navHeader)
+buttonNav.addEventListener("click", function(event){
+    navHeader.classList.toggle("display")
+    console.log("click")
+})
