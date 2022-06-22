@@ -79,7 +79,7 @@ body{
 }
 
 .formations{
-    
+    padding-bottom: 1rem;
 }
 .formations-ttl{
     color: rgb(42, 42, 102);
@@ -108,4 +108,31 @@ body{
 .formations-lycee{
     line-height: 0.1;
     padding: .5rem 0;
+}
+
+/* Experience */ 
+.experience{
+
+}
+
+.experience-content{
+
+}
+
+.experience-ttl{
+    color: rgb(42, 42, 102);
+    text-align: center;
+}
+
+.experience-list{
+    line-height: 0.1;
+    padding: .5rem 0
+}
+
+.experience-sttl{
+
+}
+
+.experience-paragraph{
+
 }
