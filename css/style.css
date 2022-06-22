@@ -46,7 +46,6 @@ body{
     .presentation{
         text-align: left;
         padding-left: 1rem;
-        padding-right: 0.2rem;
         padding-bottom: 0.1rem;
     }
     .presentation-ttl{
@@ -93,7 +92,6 @@ body{
     .skills{
         text-align: left;
         padding-left: 1rem;
-        padding-right: 0.2rem;
         padding-bottom: 0.1rem;
     }
     .skills-ttl{
@@ -190,6 +188,8 @@ body{
 .experience-sttl{
     line-height: 0.1;
 }
+
+
 
 /* LOISIRS */
 
