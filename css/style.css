@@ -32,6 +32,7 @@ body{
 
 .presentation-paragraph{
     /* color: black; */
+    line-height: 0.6;
 }
 
 /* SKILLS */ 
@@ -48,14 +49,22 @@ body{
     text-align: center;
 }
 
-.skills-biosciences-list{
+.skills-biosciences-list p{
+    line-height: 0;
+}
 
+.skills-biosciences-list li {
+    line-height: 1;
 }
 .skills-paragraph{
-    /* color: black; */
+    
 }
 .skills-informatic-list{
 
+}
+
+.skills-informatic-list{
+    line-height: 0.4;
 }
 
 /* Langues */
@@ -69,8 +78,8 @@ body{
     color: rgb(42, 42, 102);
     text-align: center;
 }
-.languages-list{
-
+.languages p{
+    line-height: 0.3;
 }
 
 /* FORMATIONS */ 
@@ -91,23 +100,23 @@ body{
 }
 
 .formations-fac{
-    line-height: 0.1;
-    padding: .5rem 0;
+    padding-bottom: 0.2rem
 }
 
 .formations-fac span{
     font-size: 0.8rem;
 }
 
-.formations-fac-sttl{
-
+.formations-fac-sttl, .formations-lycee-sttl{
+    line-height: 0.1;
+    /* padding: .5rem 0; */
 }
 .formations-paragraph{
 
 }
 .formations-lycee{
-    line-height: 0.1;
-    padding: .5rem 0;
+   
+    
 }
 
 /* Experience */ 
@@ -116,23 +125,42 @@ body{
 }
 
 .experience-content{
-
 }
 
 .experience-ttl{
     color: rgb(42, 42, 102);
     text-align: center;
+    padding-bottom: 1rem;
 }
 
 .experience-list{
-    line-height: 0.1;
-    padding: .5rem 0
+    
 }
 
 .experience-sttl{
-
+    line-height: 0.1;
 }
 
 .experience-paragraph{
+
+}
+
+/* LOISIRS */
+
+.loisirs{
+    padding: .5rem 0;
+}
+.loisirs-content{
+
+}
+.loisirs-ttl{
+    color: rgb(42, 42, 102);
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.loisirs-paragraph{
+    line-height: 0;
+}
+.loisirs-list{
 
 }
