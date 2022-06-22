@@ -203,7 +203,6 @@ body{
 .experience-ttl{
     text-align: center;
     color: rgb(42, 42, 102);
-    padding: .5rem;
 }
 
 .experience-sttl{
@@ -278,43 +277,55 @@ body{
         width: 100%;
         height: 100%;
         padding: 1.5rem 2rem;
-        background-color: #552084ce;
+        background-color: #552084f1;
      }
      .modal-link-close{
         position: absolute;
-        top: 0;
         right: 0;
-        padding: .5rem;
+        top: 0;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        padding-right: .5rem;
         color: #fdba21;
      }
 
      .modal-link-img{
-        width: 12%;
-        z-index: 100;
         position: absolute;
-        bottom: 15px;
+        z-index: 100;
+        width: 12%;
+        bottom: 0;
+        left: 0;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        padding-right: .5rem;
     }
 
      .modal-link-img2{
-        width: 78%;
-        z-index: 100;
         position: absolute;
-        bottom: 15px;
-        right: 10px;
+        z-index: 100;
+        width: 190px;
+        bottom: 0;
+        right: 0;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        padding-right: .5rem;
     }
 
     .modal-link-p{
-        position: absolute;
         z-index: 100;
-        top: 0;
-        left: 0;
-        padding-left: 1.5rem;
         text-transform: uppercase;
         font-size: 1.6rem;
         color: white;
+        justify-content: center;
+        align-items: center;
+        border: 2mm ridge rgba(253, 186, 33);
     }
      .display{
         display: block;
+     }
+
+     .displayF{
+        display:flex;
      }
 } 
 
