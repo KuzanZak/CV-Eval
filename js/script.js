@@ -64,8 +64,10 @@ link.addEventListener("click", function(event){
 const buttonNav = document.getElementById("button-nav");
 const navHeader = document.getElementById("nav-header")
 
+
 buttonNav.addEventListener("click", function(event){
-    navHeader.classList.toggle("display")
+    navHeader.classList.toggle("display");
+    setTimeout(() => {document.getElementById("header-ttl").classList.toggle("background")}, 300);
     document.getElementById("mobile-icon").classList.toggle("fa-bars")
     document.getElementById("mobile-icon").classList.toggle("fa-chevron-up")
 })

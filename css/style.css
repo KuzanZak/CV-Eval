@@ -12,12 +12,6 @@ body{
     .header-ttl{
         font-size: 3.5rem;
     }
-    .nav-header{
-        display: none;
-    }
-    .nav-angle{
-        display: none;
-    }
 }
 
 .header-ttl{
@@ -29,18 +23,20 @@ body{
 
 /* Navbar */
 .nav-header{
-    /* display: flex; */
-    position: relative;
-    display: none;
-    list-style-type: none;
-    /* border: 2px solid white; */
-}
-
-.nav-header.display{
     display: flex;
+    position: absolute;
+    right: -30rem;
+    top: 8rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    list-style-type: none;
+    transition: right 1s ease;
+}
+
+.nav-header.display{
+    right: 11.5rem;
+    top: 8rem;
 }
 
 .nav-link{
@@ -54,7 +50,6 @@ body{
     border-bottom: 2px solid white;
 }
 
-
 .nav-angle{
     position: absolute;
     top: 5.3rem;
@@ -64,6 +59,19 @@ body{
     background: none;
     border: none;
     cursor: pointer;
+}
+
+.background{
+    padding-bottom: 12rem;
+}
+
+@media screen and (min-width: 768px) {
+    .nav-header{
+        display: none;
+    }
+    .nav-angle{
+        display: none;
+    }
 }
 
 /* Reste */
