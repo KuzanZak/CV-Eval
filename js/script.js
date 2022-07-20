@@ -1,3 +1,4 @@
+// Modal
 const link = document.getElementById("loisirs-link");
 const linkLogoLakers = document.getElementById("modal-link-img");
 const linkDuoLakers = document.getElementById("modal-link-img2");
@@ -59,12 +60,12 @@ link.addEventListener("click", function(event){
 });
 
 
-// JS MOBILE
+// Menu mobile
 const buttonNav = document.getElementById("button-nav");
-// console.log(buttonNav)
 const navHeader = document.getElementById("nav-header")
-// console.log(navHeader)
+
 buttonNav.addEventListener("click", function(event){
     navHeader.classList.toggle("display")
-    console.log("click")
+    document.getElementById("mobile-icon").classList.toggle("fa-bars")
+    document.getElementById("mobile-icon").classList.toggle("fa-chevron-up")
 })

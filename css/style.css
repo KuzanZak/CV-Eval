@@ -33,7 +33,7 @@ body{
     position: relative;
     display: none;
     list-style-type: none;
-    border: 2px solid white;
+    /* border: 2px solid white; */
 }
 
 .nav-header.display{
@@ -57,13 +57,14 @@ body{
 
 .nav-angle{
     position: absolute;
+    top: 5.3rem;
+    right: .5rem;
     font-size: 2rem;
-    color:rgb(42, 42, 102) ;
-    top: 0;
-    left: 0;
+    color:white;
+    background: none;
+    border: none;
     cursor: pointer;
 }
-
 
 /* Reste */
 .left-cv{
